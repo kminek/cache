@@ -1,0 +1,19 @@
+{
+    "name": "kminek/cache",
+    "type": "library",
+    "description": "Simplest cache implementation ever!",
+    "keywords": ["cache"],
+    "homepage": "https://github.com/kminek/cache",
+    "authors": [
+        {
+            "name": "Grzesiek W",
+            "email": "kontakt@kminek.pl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Kminek_Cache.php",
+            "src/helpers.php"
+        ]
+    }
+}
