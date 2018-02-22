@@ -4,6 +4,7 @@
     "description": "Simplest cache implementation ever!",
     "keywords": ["cache"],
     "homepage": "https://github.com/kminek/cache",
+    "license": "MIT",
     "authors": [
         {
             "name": "Grzesiek W",
