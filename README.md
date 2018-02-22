@@ -65,7 +65,7 @@ if (!$cachedData) {
 ```php
 // set your custom configuration options (below are default ones)
 Kminek_Cache::configure(array(
-    'engine' => self::ENGINE_JSON, // or self::ENGINE_SERIALIZE or self::ENGINE_VAR_EXPORT
+    'engine' => Kminek_Cache::ENGINE_JSON, // or Kminek_Cache::ENGINE_SERIALIZE or Kminek_Cache::ENGINE_VAR_EXPORT
     'dir' => sys_get_temp_dir(), // where to store cache files
     'prefix' => 'kminek_cache',
     'separator' => '_',
