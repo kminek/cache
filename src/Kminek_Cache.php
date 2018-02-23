@@ -71,7 +71,7 @@ class Kminek_Cache
     public function __construct($options = array())
     {
         $defaults = array(
-            'engine' => self::ENGINE_JSON,
+            'engine' => self::ENGINE_SERIALIZE,
             'dir' => sys_get_temp_dir(),
             'prefix' => strtolower(__CLASS__),
             'separator' => '_',
